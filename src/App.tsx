@@ -4,7 +4,7 @@ import "./App.css";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <div className="Clock">12:00</div>
+            <div className="Clock">12:00:00</div>
             <header className="App-header">Nathan C</header>
         </div>
     );
