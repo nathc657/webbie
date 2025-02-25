@@ -2,6 +2,8 @@
 General Layout: 2% boarder from top
 Main Body: 64% wide, 5% from the top, 60% height, 
 
+Clock: 18% width, 10% height, 2% from the top, left side
+
 
 
 
@@ -9,6 +11,7 @@ Main Body: 64% wide, 5% from the top, 60% height,
 
 body {
     background-color: black;
+    font-family: "Futura PT", sans-serif;
 }
 
 .App {
@@ -25,6 +28,63 @@ body {
         animation: App-logo-spin infinite 20s linear;
     }
 }
+
+@font-face {
+    font-family: "Futura PT";
+    src: url("../FuturaCyrillicLight.ttf") format("woff2");
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+/*Tab Overall Container*/
+.upper-tab-container {
+    display: flex;
+    width: 64%;
+    position: absolute;
+    top: 2%;
+    height: 3%;
+    left: 18%;
+    gap: 0;
+}
+
+/*Tab Container for button style*/
+.follower-button-container {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    margin-left: -4.5%;
+}
+
+/*Tab Button*/
+.Starter-Tab-Button {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+    position: relative;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.Follower-Tab-Button {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 20% 100%);
+    position: absolute;
+    justify-content: center;
+}
+.Follower-Tab-Button-Inner {
+    width: 96%;
+    height: 95%;
+    background-color: black;
+    clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 20% 100%);
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    justify-content: center;
+    z-index: 1;
+}
+
 /*Clock Block*/
 .Clock {
     display: flex;
@@ -37,14 +97,15 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: #61dafb;
-    font-family: "Roboto Mono", monospace;
+    background-color: black;
+    border-color: white;
+    font-family: "Futura PT", sans-serif;
 }
 
 /*Large main console*/
 .App-header {
     position: absolute;
-    top: 7%;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
     width: 64%;
@@ -57,6 +118,7 @@ body {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    border-radius: 0 0 10px 10px;
 }
 
 .App-link {
