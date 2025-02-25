@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .App {
     text-align: center;
 }
@@ -12,11 +16,31 @@
         animation: App-logo-spin infinite 20s linear;
     }
 }
+.Clock {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    width: 18%;
+    height: 10%;
+    left: 0%;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: #61dafb;
+}
 
+/*Large main console*/
 .App-header {
-    width: 100%;
-    background-color: #282c34;
-    min-height: 40vh;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 64%;
+    background-color: black;
+    border: 1px solid white;
+    height: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
