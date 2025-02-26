@@ -54,19 +54,37 @@ body {
     position: relative;
     margin-left: -4.5%;
 }
+.starter-button-container {
+    width: 20%;
+    height: 100%;
+    position: relative;
+}
 
 /*Tab Button*/
-.Starter-Tab-Button {
-    width: 20%;
+.starter-tab-button-outer {
+    width: 100%;
     height: 100%;
     background-color: white;
     clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
-    position: relative;
+    position: absolute;
     border-radius: 10px 0px 0px 0px;
+    justify-content: center;
+}
+
+.starter-tab-button-inner {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    border-radius: 10px 0px 0px 0px;
+    justify-content: center;
+    top: 2%;
+    left: 1%;
 }
 
 /*Follower Tab Button*/
-.Follower-Tab-Button {
+.follower-tab-button-outer {
     width: 100%;
     height: 100%;
     background-color: white;
@@ -76,9 +94,9 @@ body {
 }
 
 /*Follower inner button for color*/
-.Follower-Tab-Button-Inner {
+.follower-tab-button-inner {
     width: 96%;
-    height: 95%;
+    height: 99%;
     background-color: black;
     clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 20% 100%);
     position: absolute;
@@ -105,7 +123,7 @@ body {
     font-family: "Futura PT", sans-serif;
 }
 
-/*Large main console*/
+/*Main Console*/
 .App-header {
     position: absolute;
     top: 5%;
