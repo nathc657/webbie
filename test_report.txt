@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (32 ms)
+  ✕ renders the course name somewhere (33 ms)
 
   ● renders the course name somewhere
 
@@ -24,26 +24,33 @@ FAIL src/App.test.tsx
             [33mclass[39m=[32m"upper-tab-container"[39m
           [36m>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"Starter-Tab-Button"[39m
-            [36m/>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"follower-button-container"[39m
+              [33mclass[39m=[32m"starter-button-container"[39m
             [36m>[39m
               [36m<div[39m
-                [33mclass[39m=[32m"Follower-Tab-Button"[39m
+                [33mclass[39m=[32m"starter-tab-button-outer"[39m
               [36m/>[39m
               [36m<div[39m
-                [33mclass[39m=[32m"Follower-Tab-Button-Inner"[39m
+                [33mclass[39m=[32m"starter-tab-button-inner"[39m
               [36m/>[39m
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"follower-button-container"[39m
             [36m>[39m
               [36m<div[39m
-                [33mclass[39m=[32m"Follower-Tab-Button"[39m
+                [33mclass[39m=[32m"follower-tab-button-outer"[39m
               [36m/>[39m
               [36m<div[39m
-                [33mclass[39m=[32m"Follower-Tab-Button-Inner"[39m
+                [33mclass[39m=[32m"follower-tab-button-inner"[39m
+              [36m/>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"follower-button-container"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"follower-tab-button-outer"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"follower-tab-button-inner"[39m
               [36m/>[39m
             [36m</div>[39m
           [36m</div>[39m
@@ -83,5 +90,5 @@ All files |     100 |      100 |     100 |     100 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.275 s
+Time:        1.343 s
 Ran all test suites.
