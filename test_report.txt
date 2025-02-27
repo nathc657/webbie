@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (33 ms)
+  ✕ renders the course name somewhere (37 ms)
 
   ● renders the course name somewhere
 
@@ -31,7 +31,13 @@ FAIL src/App.test.tsx
               [36m/>[39m
               [36m<div[39m
                 [33mclass[39m=[32m"starter-tab-shell-inner"[39m
+                [33mstyle[39m=[32m"background-color: white;"[39m
               [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"starter-tab-button"[39m
+              [36m>[39m
+                [0mButton[0m
+              [36m</div>[39m
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"follower-shell-container"[39m
@@ -41,7 +47,13 @@ FAIL src/App.test.tsx
               [36m/>[39m
               [36m<div[39m
                 [33mclass[39m=[32m"follower-tab-shell-inner"[39m
+                [33mstyle[39m=[32m"background-color: black;"[39m
               [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"follower-tab-button"[39m
+              [36m>[39m
+                [0mButton[0m
+              [36m</div>[39m
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"follower-shell-container"[39m
@@ -51,7 +63,13 @@ FAIL src/App.test.tsx
               [36m/>[39m
               [36m<div[39m
                 [33mclass[39m=[32m"follower-tab-shell-inner"[39m
+                [33mstyle[39m=[32m"background-color: black;"[39m
               [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"follower-tab-button"[39m
+              [36m>[39m
+                [0mButton[0m
+              [36m</div>[39m
             [36m</div>[39m
           [36m</div>[39m
           [36m<header[39m
@@ -84,11 +102,11 @@ FAIL src/App.test.tsx
 ----------|---------|----------|---------|---------|-------------------
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------|---------|----------|---------|---------|-------------------
-All files |     100 |      100 |     100 |     100 |                   
- App.tsx  |     100 |      100 |     100 |     100 |                   
+All files |   42.85 |       50 |      20 |   42.85 |                   
+ App.tsx  |   42.85 |       50 |      20 |   42.85 | 8,28-62           
 ----------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.302 s
+Time:        1.535 s
 Ran all test suites.
