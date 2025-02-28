@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (48 ms)
+  ✕ renders the course name somewhere (49 ms)
 
   ● renders the course name somewhere
 
@@ -18,11 +18,18 @@ FAIL src/App.test.tsx
           [36m<div[39m
             [33mclass[39m=[32m"Clock"[39m
           [36m>[39m
-            [0m20:10:22[0m
+            [0m20:23:14[0m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"module-left-header"[39m
+          [36m>[39m
+            [0mDescription[0m
           [36m</div>[39m
           [36m<div[39m
             [33mclass[39m=[32m"module-left"[39m
-          [36m/>[39m
+          [36m>[39m
+            [0mText goes here describing the different attributes of each project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.[0m
+          [36m</div>[39m
           [36m<div[39m
             [33mclass[39m=[32m"upper-tab-container"[39m
           [36m>[39m
@@ -109,10 +116,10 @@ FAIL src/App.test.tsx
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------|---------|----------|---------|---------|-------------------
 All files |   61.53 |       50 |    37.5 |   58.33 |                   
- App.tsx  |   61.53 |       50 |    37.5 |   58.33 | 19,32,54-90       
+ App.tsx  |   61.53 |       50 |    37.5 |   58.33 | 19,32,60-96       
 ----------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.433 s
+Time:        1.507 s
 Ran all test suites.
