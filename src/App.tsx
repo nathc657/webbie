@@ -35,7 +35,13 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <div className="Clock">{time}</div>
-            <div className="module-left"></div>
+
+            <div className="module-left-header">Description</div>
+            <div className="module-left">
+                Text goes here describing the different attributes of each
+                project. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+            </div>
 
             <div className="upper-tab-container">
                 <div className="starter-shell-container">
