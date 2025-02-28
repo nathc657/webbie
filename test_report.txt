@@ -18,8 +18,11 @@ FAIL src/App.test.tsx
           [36m<div[39m
             [33mclass[39m=[32m"Clock"[39m
           [36m>[39m
-            [0m20:02:33[0m
+            [0m20:10:22[0m
           [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"module-left"[39m
+          [36m/>[39m
           [36m<div[39m
             [33mclass[39m=[32m"upper-tab-container"[39m
           [36m>[39m
@@ -35,8 +38,9 @@ FAIL src/App.test.tsx
               [36m/>[39m
               [36m<div[39m
                 [33mclass[39m=[32m"starter-tab-button"[39m
+                [33mstyle[39m=[32m"color: black;"[39m
               [36m>[39m
-                [0mButton[0m
+                [0mAI Powered Job Quiz[0m
               [36m</div>[39m
             [36m</div>[39m
             [36m<div[39m
@@ -51,8 +55,9 @@ FAIL src/App.test.tsx
               [36m/>[39m
               [36m<div[39m
                 [33mclass[39m=[32m"follower-tab-button"[39m
+                [33mstyle[39m=[32m"color: white;"[39m
               [36m>[39m
-                [0mButton[0m
+                [0mPlatformer Game[0m
               [36m</div>[39m
             [36m</div>[39m
             [36m<div[39m
@@ -67,6 +72,7 @@ FAIL src/App.test.tsx
               [36m/>[39m
               [36m<div[39m
                 [33mclass[39m=[32m"follower-tab-button"[39m
+                [33mstyle[39m=[32m"color: white;"[39m
               [36m>[39m
                 [0mButton[0m
               [36m</div>[39m
@@ -103,10 +109,10 @@ FAIL src/App.test.tsx
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------|---------|----------|---------|---------|-------------------
 All files |   61.53 |       50 |    37.5 |   58.33 |                   
- App.tsx  |   61.53 |       50 |    37.5 |   58.33 | 19,32,52-86       
+ App.tsx  |   61.53 |       50 |    37.5 |   58.33 | 19,32,54-90       
 ----------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.383 s
+Time:        1.433 s
 Ran all test suites.
