@@ -35,6 +35,7 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <div className="Clock">{time}</div>
+            <div className="module-left"></div>
 
             <div className="upper-tab-container">
                 <div className="starter-shell-container">
@@ -49,9 +50,10 @@ function App(): JSX.Element {
                     ></div>
                     <div
                         className="starter-tab-button"
+                        style={{ color: selectedTab === 1 ? "black" : "white" }}
                         onClick={() => selectTab(1)}
                     >
-                        Button
+                        AI Powered Job Quiz
                     </div>
                 </div>
 
@@ -66,9 +68,10 @@ function App(): JSX.Element {
                     ></div>
                     <div
                         className="follower-tab-button"
+                        style={{ color: selectedTab === 2 ? "black" : "white" }}
                         onClick={() => selectTab(2)}
                     >
-                        Button
+                        Platformer Game
                     </div>
                 </div>
 
@@ -83,6 +86,7 @@ function App(): JSX.Element {
                     ></div>
                     <div
                         className="follower-tab-button"
+                        style={{ color: selectedTab === 3 ? "black" : "white" }}
                         onClick={() => selectTab(3)}
                     >
                         Button
