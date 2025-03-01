@@ -49,6 +49,16 @@ body {
 }
 
 /*Start tab*/
+.starter-tab-button:hover {
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.1
+    ); /* Lighten background on hover */
+    color: #fff; /* Change text color on hover */
+}
+
 .starter-shell-container {
     width: 20%;
     height: 100%;
@@ -89,9 +99,21 @@ body {
     top: 2%;
     left: 1%;
     background-color: transparent;
+    cursor: pointer;
 }
 
 /*Follower tab*/
+
+.follower-tab-button:hover {
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.1
+    ); /* Lighten background on hover */
+    color: #fff; /* Change text color on hover */
+}
+
 .follower-shell-container {
     width: 20%;
     height: 100%;
@@ -131,11 +153,13 @@ body {
     left: 1%;
     background-color: transparent;
     z-index: 2;
+    cursor: pointer;
 }
 
 /*Module Left*/
 .module-left-header {
     width: 18%;
+    cursor: default;
     height: 3%;
     position: absolute;
     left: 0%;
@@ -146,6 +170,7 @@ body {
 }
 
 .module-left {
+    cursor: default;
     width: 18%;
     height: 49%;
     position: absolute;
@@ -171,6 +196,7 @@ body {
     background-color: black;
     border-color: white;
     font-family: "Futura PT", sans-serif;
+    cursor: default;
 }
 
 /*Main Console*/
@@ -190,6 +216,7 @@ body {
     font-size: calc(10px + 2vmin);
     color: white;
     border-radius: 0 0 10px 10px;
+    cursor: default;
 }
 
 /*App link that I don't use?*/
